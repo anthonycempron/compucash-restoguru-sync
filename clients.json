@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Compucash Test",
+    "compucash_client_id": "anthonytestuae",
+    "compucash_client_secret": "anthonytestuae",
+    "restoguru_token": "this is the API URL: https://us-central1-waitlist-app-3154b.cloudfunctions.net/compuCash/webhooks"
+  },
+  {
+    "name": "Josephtest",
+    "compucash_client_id": "josephtest",
+    "compucash_client_secret": "Joseph@1234",
+    "restoguru_token": "this is the API URL: https://us-central1-waitlist-app-3154b.cloudfunctions.net/compuCash/webhooks"
+  }
+]

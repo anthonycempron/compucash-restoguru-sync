@@ -1,0 +1,33 @@
+[
+  {
+    "table_id": 12000477,
+    "table_number": "Invoice #12000477",
+    "is_occupied": true,
+    "status": "OPEN",
+    "current_bill_total": 3299,
+    "initial_payment": 0,
+    "covers": 0,
+    "items": [
+      {
+        "invoice": 12000477,
+        "rowId": 12000270,
+        "added": "2026-06-24T16:32:09.79",
+        "updated": "2026-06-24T16:32:11.23",
+        "hasModifiers": false,
+        "masterRowId": null,
+        "productId": 680,
+        "productName": "Iphone 17 256GB BLACK",
+        "productNumber": "",
+        "barcode": "00000017",
+        "mealCourse": 1,
+        "specialWish": "",
+        "quantity": 1,
+        "mainUnit": "PCS",
+        "plannedPrice": 3299,
+        "finalPrice": 3299,
+        "vatRate": 5,
+        "localTax": 0
+      }
+    ]
+  }
+]

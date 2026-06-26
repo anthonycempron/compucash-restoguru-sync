@@ -1,0 +1,53 @@
+[
+  {
+    "table_id": 1000728,
+    "table_number": "Invoice #1000728",
+    "is_occupied": true,
+    "status": "OPEN",
+    "current_bill_total": 10.8,
+    "initial_payment": 0,
+    "covers": 0,
+    "items": [
+      {
+        "invoice": 1000728,
+        "rowId": 1002994,
+        "added": "2026-06-24T16:31:52.607",
+        "updated": "2026-06-24T16:31:57.103",
+        "hasModifiers": false,
+        "masterRowId": null,
+        "productId": 1592,
+        "productName": "Baguettes",
+        "productNumber": "",
+        "barcode": "0200000015343",
+        "mealCourse": 0,
+        "specialWish": "",
+        "quantity": 1,
+        "mainUnit": "PCS",
+        "plannedPrice": 3.6,
+        "finalPrice": 3.6,
+        "vatRate": 5,
+        "localTax": 0
+      },
+      {
+        "invoice": 1000728,
+        "rowId": 1002995,
+        "added": "2026-06-24T16:31:52.88",
+        "updated": "2026-06-24T16:31:57.103",
+        "hasModifiers": false,
+        "masterRowId": null,
+        "productId": 1593,
+        "productName": "Ciabatta Baps",
+        "productNumber": "",
+        "barcode": "0200000015350",
+        "mealCourse": 0,
+        "specialWish": "",
+        "quantity": 1,
+        "mainUnit": "PCS",
+        "plannedPrice": 7.2,
+        "finalPrice": 7.2,
+        "vatRate": 5,
+        "localTax": 0
+      }
+    ]
+  }
+]
