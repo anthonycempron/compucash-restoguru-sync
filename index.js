@@ -3,8 +3,12 @@ const axios = require('axios');
 const path = require('path');
 
 // File paths on your local C: Drive
-const CONFIG_FILE = 'C:\\compucash-sync\\clients.json';
-const CACHE_DIR = 'C:\\compucash-sync\\states\\';
+//const CONFIG_FILE = 'C:\\compucash-sync\\clients.json';
+//const CACHE_DIR = 'C:\\compucash-sync\\states\\';
+
+// Render production paths
+const CONFIG_FILE = '/data/clients.json';
+const CACHE_DIR = '/data/states/';
 
 // Dynamic, runtime memory space to hold live authentication keys per client
 // This prevents us from having to read/write tokens back to the JSON file
