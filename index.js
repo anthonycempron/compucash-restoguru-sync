@@ -201,3 +201,15 @@ async function runMasterSync() {
 const SYNC_INTERVAL = 60000;
 setInterval(runMasterSync, SYNC_INTERVAL);
 runMasterSync();
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 10000;
+
+// Render will ping this to check if your app is alive
+app.get('/', (req, res) => {
+    res.send('CompuCash Sync Engine is actively running.');
+});
+
+app.listen(PORT, () => {
+    console.log(`Web Service heartbeat online. Listening on port ${PORT}`);
+});
