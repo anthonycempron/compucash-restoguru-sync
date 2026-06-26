@@ -198,23 +198,23 @@ async function runMasterSync() {
 }
 
 // Setup execution interval
-const SYNC_INTERVAL = 60000;
-setInterval(runMasterSync, SYNC_INTERVAL);
-runMasterSync();
-const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 10000;
+//const SYNC_INTERVAL = 60000;
+//setInterval(runMasterSync, SYNC_INTERVAL);
+////runMasterSync();
+//const express = require('express');
+//const app = express();
+//const PORT = process.env.PORT || 10000;
 
 // Render will ping this to check if your app is alive
-app.get('/', (req, res) => {
-    res.send('CompuCash Sync Engine is actively running.');
-});
+//app.get('/', (req, res) => {
+    //res.send('CompuCash Sync Engine is actively running.');
+//});
 // Add this right above app.listen if you want a manual sync URL
-app.get('/sync-now', async (req, res) => {
-    console.log('Manual sync requested via Web URL...');
-    await runMasterSync();
-    res.send('Sync cycle forced successfully.');
-});
-app.listen(PORT, () => {
-    console.log(`Web Service heartbeat online. Listening on port ${PORT}`);
-});
+//app.get('/sync-now', async (req, res) => {
+//    console.log('Manual sync requested via Web URL...');
+//    await runMasterSync();
+//    res.send('Sync cycle forced successfully.');
+//});
+//app.listen(PORT, () => {
+//    console.log(`Web Service heartbeat online. Listening on port ${PORT}`);
+//});
