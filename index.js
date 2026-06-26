@@ -209,7 +209,12 @@ const PORT = process.env.PORT || 10000;
 app.get('/', (req, res) => {
     res.send('CompuCash Sync Engine is actively running.');
 });
-
+// Add this right above app.listen if you want a manual sync URL
+app.get('/sync-now', async (req, res) => {
+    console.log('Manual sync requested via Web URL...');
+    await runMasterSync();
+    res.send('Sync cycle forced successfully.');
+});
 app.listen(PORT, () => {
     console.log(`Web Service heartbeat online. Listening on port ${PORT}`);
 });
